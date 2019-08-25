@@ -1,5 +1,7 @@
-InFile = open(r'C:\Users\harde\Documents\UoPeople\CS 1101 programming\sorted_fruits\unsorted_fruits.txt','r')#opens unsorted_fruits file
-OutFile = open(r'C:\Users\harde\Documents\UoPeople\CS 1101 programming\sorted_fruits\sorted_fruits.txt','w')#creates sorted_fruits file
+#The following is a simple code to sort a list (in this case, the list was a list of fruits) in alphabetical order
+#The location of the file must be entered first and the desired output file location is entered second.
+InFile = open(r'','r')#opens unsorted_fruits file. The location of the file to be read must be entered here.
+OutFile = open(r'','w')#creates sorted_fruits file. The location of the sorted list must be entered here.
 fruit=InFile.readlines()#reads unsorted_fruits
 fruit.sort()#sort fruit
 for fruit in fruit:#iteration loop to read fruit
